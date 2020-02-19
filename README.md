@@ -1,2 +1,2 @@
-# generator-vue-cli
-Generator for Vue CLI project
+# guijs-generator-vue-cli
+guijs generator for Vue CLI project
