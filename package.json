@@ -1,0 +1,34 @@
+{
+  "name": "guijs-generator-vue-cli",
+  "version": "0.0.1",
+  "description": "guijs generator for Vue CLI project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist -d",
+    "dev": "yarn build -w",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akryum/guijs-generator-vue-cli.git"
+  },
+  "keywords": [
+    "guijs",
+    "vue-cli",
+    "generator"
+  ],
+  "author": "Guillaume Chau <guillaume.b.chau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akryum/guijs-generator-vue-cli/issues"
+  },
+  "homepage": "https://github.com/Akryum/guijs-generator-vue-cli#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.5",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "execa": "^4.0.0"
+  }
+}
